@@ -1,0 +1,74 @@
+<html>
+
+<head>
+    <title>
+        Hello HTML
+    </title>
+</head>
+
+<body>
+    <!-- nav-->
+    <a href="index.html" >Home</a>&nbsp; &mdash; &nbsp;
+
+    <a href="studentlist.html">Student List</a>&nbsp; &mdash; &nbsp;
+
+    <a href="newstudent.html">New Student</a>   
+    <!-- #nav-->
+    <hr>
+    <!-- section-->
+   <form action="#" method="get">
+       <p>
+       <label>
+           Fullname:
+           <input type="text" name="txt fullname">
+       </label>
+    </p>
+    <p>
+       <label>
+        Birthdate:
+        <input type="date" name="txt Birthdate">
+    </label>
+    </p>
+    <p>
+        <label>
+            gender:
+            
+            <input type="radio" name="gender" value="male">
+            Male
+            <input type="radio" name="gender" value="female">
+            Female
+        </label>
+    </p>
+    <p>
+        <label>
+            Address:
+            <textarea rows="3" cols="40" name="txt address"></textarea>
+        </label>
+    </p>
+    <p>
+        <label>
+            choose your faculty:
+            <select name="faculty">
+                <option value="FCIT">Faculty of computer and information technolgy</option>
+                <option value="Faculty 2">Faculty 2</option>
+            </select>
+        </label>
+    </p>
+    <p>
+        <label>
+            fav color:
+            <input type="color" name="fav color">
+        </label>
+    </p>
+    <input type="submit">
+   </form>
+    <!-- #section-->
+     
+    <!-- Footer -->
+        <hr>
+    <a href="https://www.fue.edu.eg" target="_blank">&copy; Future University in Egypt</a>&nbsp; &mdash; &nbsp;
+    <a href="mailto:20195446@fue.edu.eg">contact us</a>
+    <!-- #Footer -->
+</body>
+
+</html>
